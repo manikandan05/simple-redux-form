@@ -1,6 +1,5 @@
 import './App.css';
 import { Field, reduxForm } from 'redux-form';
-import { fireEvent } from '@testing-library/dom';
 
 const LoginForm = (props) => {
   const { handleSubmit, reset, pristine, submitting } = props;

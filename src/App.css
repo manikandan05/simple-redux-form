@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+#root {
+  padding: 30px 0;
+}
+
+.container-fluid{
+  width: 550px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #d8d5d5;
+}
+
+form>div{
+  display: flex;
+  flex-direction: row;
+}
+form label{
+  font-weight: 700;
+}
+
+form .control {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+}
+
+form .control > * {
+  height: 34px;
+}
+form .control > input, form .control > textarea  {
+  text-indent: 10px;
+}
+
+form .control > textarea {
+  height: 100px;
+}
+
+*{
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+form button {
+  margin:0 10px;
+}
+
+form .option {
+  padding: 4px 8px;
+}
+
+form .col-form-label {
+padding: 0;
+line-height: 34px;
+}
+
+form .footer{
+  justify-content: center;
+}

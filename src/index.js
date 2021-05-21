@@ -7,8 +7,9 @@ import LoginForm from './App';
 import reportWebVitals from './reportWebVitals';
 
 const handleSubmit = (values) =>{
-  console.log(JSON.stringify(values));
-  return '';
+  const data = JSON.stringify(values);
+  console.log(data);
+  alert(data);
 }
 
 ReactDOM.render(

@@ -5,7 +5,10 @@ const LoginForm = (props) => {
   const { handleSubmit, reset, pristine, submitting } = props;
   return (
     <div className="container-fluid">
-      <form onSubmit={handleSubmit}>
+      <div className='heading'>
+        Simple Redux Form
+      </div>
+      <form onSubmit={handleSubmit} className='simpleform'>
         <div className='form-group '>
           <label className='col-sm-4 col-form-label'>First Name</label>
           <div className="control">
@@ -50,7 +53,7 @@ const LoginForm = (props) => {
           </div>
         </div>
         <div className='form-group '>
-          <label className='col-sm-4 col-form-label' htmlfor='employee'>Employeed</label>
+          <label className='col-sm-4 col-form-label' htmlFor='employee'>Employeed</label>
           <div className="control">
             <Field component='input' type='checkbox' name='employee'></Field>
           </div>

@@ -1,61 +1,75 @@
-.App {
-  text-align: center;
-}
-
 #root {
   padding: 30px 0;
 }
 
-.container-fluid{
+.container-fluid {
   width: 550px;
-  padding: 20px;
+  padding: 0;
   border-radius: 10px;
   border: 1px solid #d8d5d5;
 }
 
-form>div{
+.container-fluid > div {
   display: flex;
   flex-direction: row;
 }
-form label{
+.container-fluid label {
   font-weight: 700;
 }
 
-form .control {
+.container-fluid .control {
   flex: 1;
   flex-direction: column;
   display: flex;
 }
 
-form .control > * {
+.container-fluid .control > * {
   height: 34px;
 }
-form .control > input, form .control > textarea  {
+.container-fluid .control > input, .container-fluid .control > textarea  {
   text-indent: 10px;
 }
 
-form .control > textarea {
+.container-fluid .control > textarea {
   height: 100px;
 }
 
-*{
+* {
   -webkit-tap-highlight-color: transparent;
   outline: none;
 }
 
-form button {
+.container-fluid button {
   margin:0 10px;
 }
 
-form .option {
+.container-fluid .option {
   padding: 4px 8px;
 }
 
-form .col-form-label {
-padding: 0;
-line-height: 34px;
+.container-fluid .col-.container-fluid-label {
+  padding: 0;
+  line-height: 34px;
 }
 
-form .footer{
+.container-fluid .footer {
   justify-content: center;
+  display: flex;
+}
+
+.container-fluid .heading {
+  height: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: #1a2179;
+  color: #ffff;
+  font-weight: 700;
+  line-height: 36px;
+  font-size: 25px;
+  border-radius: 10px 10px 0 0;
+}
+
+.container-fluid .simpleform {
+  padding: 20px
 }
